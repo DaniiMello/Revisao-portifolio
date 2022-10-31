@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    color:inherit;
+    text-decoration: none;
+}
+
+.page-wrapper{
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 32px;
+}
+
+.header{
+    color: #666;
+    display:flex;
+    flex-direction:row;
+    justify-content: flex-end;
+    height:55px;
+}
+
+.nav-group-logo{
+    margin-right: auto;
+    font-family: 'DM Sans', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    color: palevioletred;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-group-page-items{
+    width: 610px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.nav-group-social-icons{
+    width: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-group-page-items a:hover{
+    background-color: lightgrey;
+}
+
+.nav-group-page-items a{
+    padding: 4px 8px;
+}
+.section-home{
+    min-height: calc(100vh - 55px);
+    display:flex;
+    align-items: center;
+
+}
+.section-home-item{
+    flex-grow: 1;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    color: #42446E;
+    display:flex;
+    justify-content: space-between;
+}
+
+.profile-img{
+    border-radius: 50%;
+}
+
+.my-name{
+    color: pink
+}
