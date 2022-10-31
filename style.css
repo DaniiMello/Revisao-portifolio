@@ -12,7 +12,6 @@ a{
 .page-wrapper{
     width: 1200px;
     margin: 0 auto;
-    padding-top: 32px;
 }
 
 .header{
@@ -28,7 +27,10 @@ a{
     font-family: 'DM Sans', sans-serif;
     font-style: italic;
     font-weight: bold;
-    color: palevioletred;
+    background-image: linear-gradient(to left, #a69e80, #e0ba9b,  #e7a97e, #d28574, #3b1922);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-size: 40px;
     display: flex;
     align-items: center;
@@ -76,8 +78,12 @@ a{
 
 .profile-img{
     border-radius: 50%;
+    border-style: solid;
+    border-width: thick;
 }
-
 .my-name{
-    color: pink
+    background-image: linear-gradient(to left, #a69e80, #e0ba9b,  #e7a97e, #d28574, #3b1922);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
