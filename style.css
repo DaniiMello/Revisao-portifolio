@@ -1,3 +1,4 @@
+/* ================ GLOBAL ============= */
 *{
     margin:0;
     padding: 0;
@@ -13,7 +14,7 @@ a{
     width: 1200px;
     margin: 0 auto;
 }
-
+/* =========== HEADER =============== */
 .header{
     color: #666;
     display:flex;
@@ -70,14 +71,14 @@ a{
 .section-home-item{
     flex-grow: 1;
     font-family: 'Poppins', sans-serif;
-    font-size: 30px;
+    font-size: 28px;
     color: #42446E;
     display:flex;
     justify-content: space-between;
 }
 
 .profile-img{
-    border-radius: 50%;
+    border-radius: 230%;
     border-style: solid;
     border-width: thick;
 }
@@ -86,4 +87,74 @@ a{
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+/* ============ ABOUT ME (about.html) =============== */
+.section-about{
+    min-height: calc(100vh - 55px);
+    width: 710px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-about-item-header{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 8px;
+}
+.section-about-work-item-content{
+    display:flex;
+}
+.section-about-work{
+    font-family: 'Poppins', sans-serif;
+    border-bottom: 2px solid lightgray;
+}
+
+.section-about-work-item{
+    height: ;
+    border-bottom: 2px solid lightgray;
+}
+.section-about-me{
+    font-family: 'Poppins', sans-serif;
+}
+
+.section-about h1{
+    font-size: 36px;
+    color: #42446E;
+    margin: 36px 0px;
+}
+
+.section-about h2{
+    font-size: 20px;
+    font-weight: 400;
+    color: #666666;
+}
+html body .section-about-time {
+    color: purple;
+    background-color: pink;
+    border-radius: 20px;
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 3px 3px 0 0  lightgray;
+}
+.section-about p {
+    font-size: 18px;
+    color: #666666;
+}
+.section-about span{
+    font-size: 12px;
+    font-weight: 500;
+    color: #a7a7a7;
+}
+
+.content-work {
+    width: 320px;
+}
+.content-location {
+    width: 315px;
+}
+.content-date {
+    margin-left: auto;
 }
